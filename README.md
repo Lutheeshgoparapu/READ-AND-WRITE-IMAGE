@@ -52,7 +52,7 @@ color_img=cv2.imread('1.jpg',1)
 for i in range(100):
     for j in range(color_img.shape[1]):
         color_img[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow('212221230030 jayanth',color_img)
+cv2.imshow('212221230029 Lutheesh',color_img)
 cv2.waitKey(0)
 ```
 v) #To cut and paste portion of image
@@ -61,7 +61,7 @@ import cv2
 color_image=cv2.imread('1.jpg',-1)
 tag=color_image[30:40,30:40]
 color_image[5:15,5:15]=tag
-cv2.imshow('212221230030 jayanth',color_image)
+cv2.imshow('212221230029 Lutheesh',color_image)
 cv2.waitKey(0)
 ```
 
