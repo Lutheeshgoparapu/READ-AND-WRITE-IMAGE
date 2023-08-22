@@ -17,9 +17,6 @@ Step3: Use imshow(window_name, image) to display the image.
 Step4: Use imwrite(filename, image) to write the image.
 
 Step5: End the program and close the output image windows.:
-### Program:
-Developed by : Goparapu Lutheesh
-Reg no : 212221230029
 
 ## Program:
 ### Developed By:Goparapu Lutheesh
@@ -36,7 +33,7 @@ ii) #To write the image
 import cv2
 color_img=cv2.imread('1.jpg',1)
 w=cv2.imwrite('1.png',color_img)
-cv2.imshow('212221230030 jayanth',color_img)
+cv2.imshow('212221230029 Lutheesh',color_img)
 cv2.waitKey(0) 
 ```
 iii) #Find the shape of the Image
@@ -72,12 +69,12 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-![WhatsApp Image 2023-08-21 at 23 22 25](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/ffe4039f-62f8-4a60-9a8a-a31caa67e6ea)
+![WhatsApp Image 2023-08-22 at 21 20 24](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/936b87fa-014a-4d06-baca-41e2508da1e0)
 
 
 ### ii)Write the image
 
-![WhatsApp Image 2023-08-21 at 23 22 25](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/31891348-63dc-4a6d-88b3-71b872c9d57e)
+![WhatsApp Image 2023-08-22 at 21 20 24](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/8cec8761-940d-442d-8b3f-7391590c2709)
 
 
 ### iii)Shape of the Image
@@ -86,13 +83,14 @@ cv2.waitKey(0)
 
 
 ### iv)Access rows and columns
-![WhatsApp Image 2023-08-21 at 23 22 25](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/59aca6bb-d3a5-4393-8fde-04e465592dd5)
 
+
+![WhatsApp Image 2023-08-22 at 21 20 24](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/d9a4bdd1-e770-48ba-9e9b-f8f7b15e98ac)
 
 
 ### v)Cut and paste portion of image
 
-![WhatsApp Image 2023-08-21 at 23 22 25](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/4c7ee088-10f5-41df-8338-f356c1281fe0)
+![WhatsApp Image 2023-08-22 at 21 20 24](https://github.com/Lutheeshgoparapu/READ-AND-WRITE-IMAGE/assets/94154531/3e7f821c-60d3-43e6-b0ca-f59873a47483)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
